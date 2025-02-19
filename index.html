@@ -4,8 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KONFLUXUS</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jacquard+24+Charted&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h2>you got more info</h2>
+
+    <div class="centered">
+        <div class="title">Konfluxus</div>
+        <div class="accent-font">
+            <h2>a collective formed by intermedia artists in 2024</h2>
+            <hr>
+            <h3>our current state</h3>
+            <hr>
+            <table class="centered">
+                <tr >
+                    <td  style="padding: 0em; font-size: 1.5em;">
+                        ✺
+                    </td>
+                    <td class="text-main">
+                        we are mainly focused on exploring live-streams as an art form <br>
+                        broadcasted from a green screen studio at the HUFA's <i><a href="https://www.youtube.com/@mke-intermedia-department" target="_blank">Intermedia</a></i> department<br>
+                        our work is closely tied with the <i><a href="https://networkcultures.org/void/2024/11/14/launch-of-the-stream-art-network-san/" target="_blank">Stream Art Network</a></i> in creating telematic live performances
+                    </td>
+                    <td  style="padding: 0em; font-size: 1.5em;">
+                        ✺
+                    </td>
+                </tr>
+            </table>      
+            <br>
+        <div id="twitch-embed" class="centered"></div>
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <script type="text/javascript">
+            player = new Twitch.Embed("twitch-embed", {
+              width: "85%",
+              height: 480,
+              channel: "konfluxuscollective",
+              muted: true,
+
+            });
+          </script>
+        <br>
+        <br>
+        <hr>
+        <table class="centered">
+            <tr>
+                <td style="padding: 0em; font-size: 1.5em;">
+                    ✺
+                </td>
+                <td class="text-main">
+                    currently we are looking for artists who would like to come to our green stage <br>
+                    and perform on a 24 hour live stream on the 24th of february 2025 <br> <hr>
+                    the stream will start at 2025.02.23. 23:00 CET <br>
+                    our main topic will be the 3rd anniversary of the outbreak of full-scale war in Ukraine <br> <hr>
+                    come and join us with a prepared act, improvise, or just chill and check out the vibes <br>
+                    you can also send your works to our email address: konfluxus.collective@proton.me and we will display them on the stream<br>
+                    proposals and requests for equipment/assistance/funds should also land at: <br> 
+                    <br>
+                    <a href="mailto:konfluxus.collective@proton.me" target="_blank" style="font-size: 1.5em;">konfluxus.collective@proton.me</a>
+                    <hr>    
+                </td>
+                <td  style="padding: 0em; font-size: 1.5em;">
+                    ✺
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        links:
+        <div>
+            <table class="centered">
+                <tr>
+                    <td class="link-table">
+                        <a href="html/contact.html">contact</a>
+                    </td>
+                    <td class="link-table">
+                        <a href="html/archive.html">archive + history</a>
+                    </td>
+                    <td class="link-table">
+                        <a href="https://networkcultures.org/void/2024/11/14/launch-of-the-stream-art-network-san/" target="_blank">S. A. N.</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,68 @@
+:root {
+    --primary: #000000;
+    --secondary: #ffffff;
+    --title-font: "Jacquard 24 Charted", serif;
+    --text-font: "Cutive Mono", serif;
+    --accent-font: "Jacquard 24", serif;
+  }
+.jacquard-24-regular {
+    font-family: "Jacquard 24", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.jacquard-24-charted-regular {
+    font-family: "Jacquard 24 Charted", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cutive-mono-regular {
+    font-family: "Cutive Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @media only screen and (max-width: 450px) {
+    body {
+      font-size: 11px;
+    }
+  }
+body {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+a {
+    font-family: var(--title-font);
+    color: var(--secondary);
+    font-size: 1.3em;
+}
+a:visited {
+    color: var(--secondary);
+}
+hr {
+    width: 10%;
+}
+
+.title {
+    font-family: var(--title-font);
+    font-size: 6em;
+}
+.centered {
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.accent-font {
+    font-family: var(--accent-font);
+    font-size: 1.2em;
+}
+.text-main {
+    font-family: var(--text-font);
+}
+.link-table {
+    width: 33%;
+    margin: auto;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 0em;
+}
