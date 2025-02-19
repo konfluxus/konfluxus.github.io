@@ -66,3 +66,21 @@ hr {
     text-align: center;
     padding: 0em;
 }
+.inline {
+    display: inline;
+}
+.language-select {
+    font-family: var(--text-font);
+    cursor: pointer;
+    display: inline;
+}
+.language-select:hover {
+    text-decoration: underline;
+}
+.backlink {
+    font-family: var(--title-font);
+    font-size: 5em;
+}
+.backlink:hover {
+    text-decoration: underline;
+}

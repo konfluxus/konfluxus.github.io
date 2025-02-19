@@ -17,31 +17,39 @@
     <div class="centered">
         <div class="title">Konfluxus</div>
         <div class="accent-font">
-            <h2>a collective formed by intermedia artists in 2024</h2>
+            <h2 data-lang="subtitle">a collective formed by intermedia artists in 2024</h2>
+            <br>
             <hr>
-            <h3>our current state</h3>
+            <p class="language-select" id="enlang">EN</p> │
+            <p class="language-select" id="hulang">HU</p>
+            <hr>
+            <br>
+            <h3 data-lang="state">our current state</h3>
             <hr>
             <table class="centered">
                 <tr >
-                    <td  style="padding: 0em; font-size: 1.5em;">
+                    <td  style="padding: 0em; font-size: 1.5em; ">
                         ✺
                     </td>
-                    <td class="text-main">
-                        we are mainly focused on exploring live-streams as an art form <br>
-                        broadcasted from a green screen studio at the HUFA's <i><a href="https://www.youtube.com/@mke-intermedia-department" target="_blank">Intermedia</a></i> department<br>
-                        our work is closely tied with the <i><a href="https://networkcultures.org/void/2024/11/14/launch-of-the-stream-art-network-san/" target="_blank">Stream Art Network</a></i> in creating telematic live performances
+                    <td class="text-main" width="45%" >
+                        <p data-lang="desc1">we are mainly focused on exploring live-streams as an art form </p>
+                        <p data-lang="desc2" class="inline">broadcasted from a green screen studio at the HUFA's</p> <i><a href="https://www.youtube.com/@mke-intermedia-department" target="_blank" class="inline">Intermedia</a></i> <p class="inline" data-lang="department">department</p>
+                        <br>
+                        <br>
+                        <p class="inline" data-lang="desc3">our work is closely tied with the</p> <i><a href="https://networkcultures.org/void/2024/11/14/launch-of-the-stream-art-network-san/" target="_blank"><p class="inline">Stream Art Network</p></a></i> <p data-lang="desc4" class="inline">in creating telematic live performances</p>
                     </td>
                     <td  style="padding: 0em; font-size: 1.5em;">
                         ✺
                     </td>
                 </tr>
-            </table>      
+            </table>     
+            <hr> 
             <br>
         <div id="twitch-embed" class="centered"></div>
         <script src="https://embed.twitch.tv/embed/v1.js"></script>
         <script type="text/javascript">
             player = new Twitch.Embed("twitch-embed", {
-              width: "85%",
+              width: "60%",
               height: 480,
               channel: "konfluxuscollective",
               muted: true,
@@ -56,26 +64,33 @@
                 <td style="padding: 0em; font-size: 1.5em;">
                     ✺
                 </td>
-                <td class="text-main">
-                    currently we are looking for artists who would like to come to our green stage <br>
-                    and perform on a 24 hour live stream on the 24th of february 2025 <br> <hr>
-                    the stream will start at 2025.02.23. 23:00 CET <br>
-                    our main topic will be the 3rd anniversary of the outbreak of full-scale war in Ukraine <br> <hr>
-                    come and join us with a prepared act, improvise, or just chill and check out the vibes <br>
-                    you can also send your works to our email address: konfluxus.collective@proton.me and we will display them on the stream<br>
-                    proposals and requests for equipment/assistance/funds should also land at: <br> 
+                <td class="text-main" width="45%" style="">
+                    <p data-lang="call1">currently we are looking for artists who would like to come to our green stage 
+                    and perform on a 24 hour live stream on the 24th of february 2025</p>  <hr>
+                    <p data-lang="call2">the stream will start at 2025.02.23. 23:00 CET & 
+                    our main topic will be the 3rd anniversary of the outbreak of full-scale war in Ukraine</p>  <hr>
+                    <p data-lang="call3" class="inline">come and join us with a prepared act, improvise, or just chill and check out the vibes</p> 
                     <br>
+                    <p data-lang="address" class="inline">address:</p> <p class="inline">Budapest, Kmety György u. 27, 1063</p>
+                    <hr>
+                    <p data-lang="call4">you can also send your works to our email address: konfluxus.collective@proton.me and we will display them on the stream</p>
+                    <hr>
+                    <p class="inline" data-lang="call5">proposals and requests for equipment/assistance/funds should also land at:  </p>
+                    
                     <a href="mailto:konfluxus.collective@proton.me" target="_blank" style="font-size: 1.5em;">konfluxus.collective@proton.me</a>
-                    <hr>    
+                      
                 </td>
                 <td  style="padding: 0em; font-size: 1.5em;">
                     ✺
                 </td>
             </tr>
         </table>
+        <hr>
         <br>
         <br>
-        links:
+        <br>
+        <br>
+        <p data-lang="links">links:</p>
         <div>
             <table class="centered">
                 <tr>
@@ -92,5 +107,7 @@
             </table>
         </div>
     </div>
+    <br>
+    <script src="data/language.js"></script>
 </body>
 </html>
