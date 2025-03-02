@@ -16,10 +16,12 @@
         "links": "links",
         "address": "address",
         "archive_subtitle": "welcome to the archive where we store the memories of our ephemeral experiences",
-        "archive_cat1": "stream recordings",
+        "archive_cat1": "past streams",
         "archive_desc1": "after joining this call, we jumped into our first stream art performance, which lasted 24 hours",
         "back": "go back",
-        "contact_subtitle": "our main contacts are the email address and the telephone number displayed during streams"
+        "contact_subtitle": "our main contacts are the email address and the telephone number displayed during streams",
+        "archive_cat2": "past announcements",
+        "announcement": "silence"
     },
     "hu": {
         "subtitle": "intermédia-művészek 2024-ben alakult kollektívája",
@@ -37,9 +39,11 @@
         "links": "linkek",
         "address": "cím",
         "archive_subtitle": "üdv az archívumban, ahol pillanatnyi élményeink emlékeit tároljuk",
-        "archive_cat1": "stream felvételek",
+        "archive_cat1": "régi streamek",
         "archive_desc1": "erre a hívásra válaszolva ugrottunk bele első stream art performanszunkba, ami 24 órán keresztül tartott",
         "back" : "vissza",
-        "contact_subtitle": "fő elérhetőségünk az email címünk, és az adástelefon, amely stream közben aktív"
+        "contact_subtitle": "fő elérhetőségünk az email címünk, és az adástelefon, amely stream közben aktív",
+        "archive_cat2": "régi felhívások",
+        "announcement": "csend"
     }
 }
