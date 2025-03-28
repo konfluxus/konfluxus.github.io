@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #a83133;
+            --secondary: #ffffff;
+            --title-font: "Jacquard 24 Charted", serif;
+            --text-font: "Inter", sans-serif;
+            --accent-font: "Jacquard 24", serif;
+        }
+        body {
+            background-color: var(--primary);
+        }
+        .letter {
+            background-color: white; 
+            color: black; 
+            margin: 10px; 
+            width:fit-content; 
+            padding: 5px;
+            display: inline-block;
+            font-size: 4em;
+        }
+        .letterred {
+            background-color: white; 
+            color: var(--primary); 
+            margin: 10px; 
+            width:fit-content; 
+            padding: 5px;
+            display: inline-block;
+            font-size: 4em;
+        }
+        .inter {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+        .language-select {
+            font-size: 3em;
+        }
+        .text-main {
+            font-family: var(--text-font);
+            font-size: 1.3em;
+        }
+        @media only screen and (max-width: 450px) {
+            .letter {
+                background-color: white; 
+                color: black; 
+                margin: 2px; 
+                width:fit-content; 
+                padding: 5px;
+                display: inline-block;
+                font-size: 2em;
+            }
+            .letterred {
+                background-color: white; 
+                color: var(--primary); 
+                margin: 2px; 
+                width:fit-content; 
+                padding: 5px;
+                display: inline-block;
+                font-size: 2em;
+            }
+            .language-select {
+                font-size: 2em;
+            }
+            .bottom {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="centered">
+        <div class="letter" data-rotate>K</div>
+        <div class="letter" data-rotate>O</div>
+        <div class="letter" data-rotate>N</div>
+        <div class="letter" data-rotate>F</div>
+        <div class="letter" data-rotate>L</div>
+        <div class="letter" data-rotate>U</div>
+        <div class="letter" data-rotate>X</div>
+        <div class="letter" data-rotate>U</div>
+        <div class="letter" data-rotate>S</div>
+        <br>
+        <br>
+        <div class="letterred" data-rotate>M</div>
+        <div class="letterred" data-rotate>A</div>
+        <div class="letterred" data-rotate>J</div>
+        <div class="letterred" data-rotate>Á</div>
+        <div class="letterred" data-rotate>L</div>
+        <div class="letterred" data-rotate>I</div>
+        <div class="letterred" data-rotate>S</div>
+        <br>
+        <br>
+        <div class="letter" data-rotate>2</div>
+        <div class="letter" data-rotate>0</div>
+        <div class="letter" data-rotate>2</div>
+        <div class="letter" data-rotate>5</div>
+    </div>
+    <br>
+    <br>
+    <div class="centered">
+            <p class="language-select" id="enlang">🇬🇧</p>
+            <p class="language-select" id="hulang">🇭🇺</p>
+    </div>
+    <br>
+    <div class="centered">   
+        <p class="text-main" style="line-height: 1.5em;" data-lang="majalis_text"></p>
+    </div>  
+
+    <div class="centered">
+        <a href="https://forms.gle/RGJNRbqAdZUS6NC67" target="_blank"><h1 style="background-color: white; color:black; width: fit-content; margin: auto; padding: 3px;"> form link </h1></a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="centered">
+        <a href="/index.html" class="bottom"><h2 data-lang="back">Konfluxus</h2></a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('[data-rotate]');
+            elements.forEach(el => {
+                const randomRotation = Math.floor(Math.random() * 34) - 17;
+                el.style.transform = `rotate(${randomRotation}deg)`;
+            });
+        });
+    </script>
+    <script src="/data/language.js"></script>
+</body>
+</html>

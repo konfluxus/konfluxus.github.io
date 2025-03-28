@@ -29,7 +29,10 @@ function changeLanguage(lang) {
     document.querySelectorAll("[data-lang]").forEach(element => {
         const key = element.getAttribute("data-lang");
         if (translations[lang][key]) {
-            element.textContent = translations[lang][key]; // Set new text
+            const translation = translations[lang][key];
+      element.innerHTML = Array.isArray(translation) 
+        ? translation.join("<br>") // add line breaks
+        : translation.replace(/\\n/g, "<br>");
         }
     });
 

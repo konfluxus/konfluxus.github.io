@@ -18,10 +18,20 @@
         "archive_subtitle": "welcome to the archive where we store the memories of our ephemeral experiences",
         "archive_cat1": "past streams",
         "archive_desc1": "after joining this call, we jumped into our first stream art performance, which lasted 24 hours",
-        "back": "go back",
+        "back": "home",
         "contact_subtitle": "our main contacts are the email address and the telephone number displayed during streams",
         "archive_cat2": "past announcements",
-        "announcement": "silence"
+        "announcement": "next stream:",
+        "majalis_text": ["konfluxus hybrid event on workers' day",
+            "",
+            "2025.05.01.",
+            "",
+            ">> intermedia garden << ",
+            "📍 Budapest, Kmety György u. 27, 1063",
+            "",
+            "stream - performance - music - picnic",
+            "",
+            "Join us as a collaborator:"]
     },
     "hu": {
         "subtitle": "intermédia-művészek 2024-ben alakult kollektívája",
@@ -41,9 +51,19 @@
         "archive_subtitle": "üdv az archívumban, ahol pillanatnyi élményeink emlékeit tároljuk",
         "archive_cat1": "régi streamek",
         "archive_desc1": "erre a hívásra válaszolva ugrottunk bele első stream art performanszunkba, ami 24 órán keresztül tartott",
-        "back" : "vissza",
+        "back" : "főoldal",
         "contact_subtitle": "fő elérhetőségünk az email címünk, és az adástelefon, amely stream közben aktív",
         "archive_cat2": "régi felhívások",
-        "announcement": "csend"
+        "announcement": "következő stream:",
+        "majalis_text": ["konfluxus hibrid esemény a munka ünnepén",
+            "",
+            "2025.05.01.",
+            "",
+            ">> intermédia kert <<",
+            "📍 Budapest, Kmety György u. 27, 1063",
+            "",
+            "stream - performansz - zene - piknik",
+            "",
+            "Jelentkezz kollaborátorként: "]
     }
 }
